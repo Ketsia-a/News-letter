@@ -10,7 +10,7 @@ class NewsTest(unittest.TestCase):
         '''
         Set up method that will run before every Test
         '''
-        self.new_source = Sources("aftenposten","Aftenposten","Norges ledende nettavis med alltid oppdaterte nyheter innenfor innenriks, utenriks, sport og kultur.", "https://www.aftenposten.no","general")
+        self.new_source = Sources("one","Abraham","THe dollar bill currency", "","")
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_source,Sources))

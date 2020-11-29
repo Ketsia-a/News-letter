@@ -10,11 +10,10 @@ class ArticleTest(unittest.TestCase):
         '''
         Set up method that will run before every Test
         '''
-        self.new_article = Article("Tom McCarthy","Republican officials finally forced into action on Covid-19 as reality bites - The Guardian", "Some GOP governors who for months toed Trump’s line on coronavirus, are performing U-turns on mask-wearing","https://www.theguardian.com/world/2020/nov/20/republicans-coronavirus-covid-19-governors-mask-mandates","https://i.guim.co.uk/img/media/d30fbba6eea55ae5aa4ef485fbb6dd7b3bf0f7d2/0_100_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3e757921ed1233fd508c213e13ff1ede","2020-11-20T13:52:00Z","After Republicans won big on election night in the state of Iowa, in Americas heartland, Governor Kim Reynolds claimed vindication for her light-handed approach to the coronavirus pandemic.\r\nSign up … [+7567 chars]")
-
+       
     def test_instance(self):
         self.assertTrue(isinstance(self.new_article,Article))
-
+self.new_article = Article('1','psychology','Utpal Dholakia Ph.D.','Why Are American Shoppers Panic Buying Again?','We have seen this show already once this year, in full CinemaScope no less.','https://www.psychologytoday.com/us/blog/the-science-behind-behavior/202011/why-are-american-shoppers-panic-buying-again?collection=1154000','https://www.google.com/search?q=image&sxsrf=ALeKk01P-gWnceJCIGUwCBCnXsUBt0OW9g:1606659598829&tbm=isch&source=iu&ictx=1&fir=3z9LIUs4ChzUOM%252ChrsXnpNgc3ZwMM%252C_&vet=1&usg=AI4_-kTte39BqlR0dNxrY4KNIZ22wyiq5A&sa=X&ved=2ahUKEwjX3aa1-aftAhV9RxUIHZDoBuMQ9QF6BAgCEFo#imgrc=3z9LIUs4ChzUOM','www.lo.ketsia.jpg')
 
 if __name__ == '__main__':
     unittest.main()
