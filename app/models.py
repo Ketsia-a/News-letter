@@ -1,8 +1,7 @@
 class News:
-    def __init__(self,id,name,description,url,category):
+    def __init__(self,id,name,url,category):
         self.id = id
         self.name = name
-        self.description = description
         self.url = url
         self.category = category
 
@@ -16,5 +15,10 @@ class Article:
         self.url = url
         self.urlToImage = urlToImage
         self.publishedAt = publishedAt
-   
-        
+
+# class Category:
+
+#     def __init__(self, id,title,text):
+#         self.id = id
+#         self.title = title
+#         self.text = text

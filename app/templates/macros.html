@@ -1,6 +1,6 @@
 {% macro displayNewsList(news_list) %} {% for news in news_list %}
 <div class=" card col-md-3 pt-2">
-    <a href="/news/{{news.id}}">{{news.name}}</a>
+    <a href="/article/{{news.id}}">{{news.name}}</a>
 </div>
 {% endfor %} {% endmacro %} {% macro displayNewsArticle(articles_list)%}
 <div class="container">
