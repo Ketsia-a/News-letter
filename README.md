@@ -9,6 +9,8 @@
 * Contact information 
 * Technologies used
 * Known bugs
+* link to live site
+* sneak pic of the site
 * License
 
 #  *Ketsia Iragena*
@@ -23,11 +25,13 @@ This is a news website that allows a user to navigate through it while reading a
  css 
  html
   ## Known bugs
-   * The live link is unnavailable
- 
+   * The styling is a little unappealing
  
   If you find a problem with the website, please [report it in the web reposiory](https://github.com/Ketsia-a/News-letter) 
-
+#  Link to live site : 
+ https://knewsletter.herokuapp.com/
+ ### sneak pic
+  ![click here](https://github.com/Ketsia-a/News-letter/blob/master/app/static/Screenshot%20from%202020-12-04%2009-05-07.png)
 # License
 MIT Copyright (c) Ketsia Iragena Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
